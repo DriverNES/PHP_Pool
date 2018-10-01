@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Basics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+<h1>-so bigger-</h1>
+<div class="row">
+    <div class="column">
+        <img src="amazon_logo.png" alt="Amazon Shop">
+    </div>
+    <div class="column">
+        <img src="alibaba_logo.png" alt="Alibaba Shop">
+    </div>
+</div>
+<div class="row">
+    <div class="column">
+        <a href="https://www.amazon.com">Amazon</a>
+    </div>
+    <div class="column">
+        <a href="https://www.alibaba.com">Alibaba</a>
+    </div>
+</div>
+<footer>
+    <hr>
+    © ndriver 2018
+</footer>
+<style>
+.stuff {
+
+    align-content: center;
+    width: 100%;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 20px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: pink;
+}
+footer {
+	padding-top: 10px;
+	text-align: right;
+	font-style: italic;
+	font-family: monospace;
+}
+</style>
+</body>
+</html>
